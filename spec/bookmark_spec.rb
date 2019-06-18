@@ -1,9 +1,9 @@
-require 'bookmarks'
+require 'bookmark'
 
-describe Bookmarks do  
+describe Bookmark do  
   describe '#.all' do
 
-    bookmarks = Bookmarks.all
+    bookmarks = Bookmark.all
 
     it 'has a list of bookmarks' do
       expect(bookmarks).to be_an_instance_of(Array)    
